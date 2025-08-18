@@ -1,9 +1,9 @@
+import Image from "./Image"
+
 function Logo() {
     return (
-        <div class='w-12'>
-            <img clas='' src="logo-pic.png" alt="" />
-        </div>
-    )
+      <Image src="logo-pic.png" alt='busines logo' width='w-12' />
+    );
 }
 
 export default Logo
