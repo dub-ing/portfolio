@@ -10,3 +10,8 @@ body {
     @apply bg-[#1C1C1C] border-2 border-[#2E3A59] rounded-xl py-1 px-3 flex justify-between;
   }
 }
+
+@theme {
+  --breakpoint-xs: 27rem;
+  --color-bat-signal: #FFD700;
+}

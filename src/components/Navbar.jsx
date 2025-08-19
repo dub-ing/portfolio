@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 function Navbar() {
     return (
-      <div class="card">
+      <div class="card flex items-center">
         <Logo />
         <Nav />
       </div>
