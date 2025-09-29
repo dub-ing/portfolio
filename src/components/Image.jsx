@@ -1,9 +1,6 @@
-function Image({src, width, alt, icon}) {
+function Image({src, alt, height, width}) {
     return (
-      <div class={width}>
-        {icon}
-        <img src={src} alt={alt} />
-      </div>
+        <img src={src} class={`${height} ${width} rounded-2xl`} alt={alt} />
     );
 }
 
