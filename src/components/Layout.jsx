@@ -1,3 +1,4 @@
+import Modal from "../ui/Modal";
 import About from "./About";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
@@ -17,6 +18,7 @@ function Layout() {
         <Project />
         <Contact />
         <Socials />
+        
       </div>
     </div>
   );

@@ -1,8 +1,14 @@
 import { HiArrowUpRight } from "react-icons/hi2";
 import Image from "./Image";
 import Button from "../ui/Button";
+import { useState } from "react";
+import Modal from "../ui/Modal";
 
 function Project() {
+  const [isOpen, setIsOpen] = useState(false)
+  function handleModal() {
+    setIsOpen(!isOpen)
+  }
   return (
     <div class="bg-[#1C1C1C] rounded-xl py-3 px-3 row-span-2 flex flex-col justify-between md:col-start-3 md:row-start-1">
       <div class="flex justify-between items-center">
@@ -20,7 +26,7 @@ function Project() {
         <div class="pb-3 border-b-2 my-3 space-x-3">
           <h3 class="text-[#E0E0E0] font-[roboto] my-2 ">
             Hotel Management Dashboard{" "}
-            <span class="float-end">
+            <span class="float-end" onClick={handleModal}>
               <HiArrowUpRight size="1.2em" color="#C0C0C0" />
             </span>
           </h3>
@@ -49,6 +55,7 @@ function Project() {
           <Button>Redux</Button>
         </div>
       </div>
+      {isOpen && <Modal closeModal={handleModal} />}
     </div>
   );
 }
