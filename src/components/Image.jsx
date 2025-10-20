@@ -1,6 +1,6 @@
 function Image({src, alt, height, width}) {
     return (
-        <img src={src} class={`${height} ${width} rounded-2xl`} alt={alt} />
+        <img src={src} class={`${height} ${width} rounded-2xl object-cover`} alt={alt} />
     );
 }
 
