@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 body {
-  font-family: oswald;
+  font-family: oswald!;
 }
 
 @layer components {
