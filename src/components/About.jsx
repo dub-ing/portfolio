@@ -7,7 +7,7 @@ function About() {
       <div class="flex justify-end mt-2 animate-bounce">
         <Image src="profile-pic2.png" width='w-12' alt="busines logo" />
       </div>
-      <div class="mt-15 md:w-[90%] m-auto ">
+      <div class="mt-12 md:w-[90%] m-auto">
         <p class="text-[#E0E0E0] md:text-2xl">
           Hey! My name is Olawale Ogunduboye, a front-end developer that is
           highly motivated and imaginative by finding inspirations in everyday

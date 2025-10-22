@@ -5,7 +5,7 @@ import { HiMail } from "react-icons/hi";
 
 function Socials() {
     return (
-      <ul class="card justify-evenly text-[#C0C0C0] py-2 md:col-start-1 md:col-span-3 md:border-0 bg-[#0d0d0d]">
+      <ul class="card justify-evenly text-[#C0C0C0] py-2 sm:hidden md:col-start-1 md:col-span-3 md:border-0 bg-[#0d0d0d]">
         <a href="" class="flex items-center space-x-1.5">
           <span>
             <FaGithub />

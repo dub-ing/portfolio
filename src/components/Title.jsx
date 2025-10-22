@@ -2,7 +2,7 @@ import Image from "./Image";
 
 function Title() {
     return (
-      <div class="bg-[#1C1C1C] rounded-xl py-3 px-3 box-border h-[500px] flex flex-col justify-between md:h-auto">
+      <div class="bg-[#1C1C1C] rounded-xl py-3 px-3 box-border max-sm:h-[500px] h-auto flex flex-col justify-between md:h-auto">
         <div class="flex justify-end">
           <Image src="logo-pic.png" alt="picture of dev" width="w-12" />
         </div>
