@@ -6,7 +6,7 @@ function Nav() {
       <div class="sm:hidden flex items-center">
         <HiMenuAlt3 size="2em" color="#C0C0C0" />
       </div>
-      <ul class="hidden text-[#E0E0E0] sm:flex items-center w-75 justify-between">
+      <ul class="hidden text-[#E0E0E0] sm:hidden items-center w-75 justify-between">
         <a href="#home">
           <li>Home</li>
         </a>
