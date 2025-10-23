@@ -2,7 +2,7 @@ import Image from "./Image"
 
 function Logo() {
     return (
-      <div class='w-12'>
+      <div class='w-10'>
         <Image src="logo-pic.png" alt='busines logo' />
       </div>
     );
