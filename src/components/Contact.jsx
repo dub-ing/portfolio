@@ -1,6 +1,6 @@
 import { HiArrowUpRight } from "react-icons/hi2";
 import Image from "./Image";
-import Socials from './Socials'
+// import Socials from './Socials'
 import { TbBackground } from "react-icons/tb";
 
 function Contact() {
@@ -18,7 +18,7 @@ function Contact() {
         <p class="text-[#2e3a59] text-5xl md:text-[4.5rem] lg:text-6xl">
           Contact Me.
         </p>
-        <Socials />
+        {/* <Socials /> */}
       </div>
     </div>
   );

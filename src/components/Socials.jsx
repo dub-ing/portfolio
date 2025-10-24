@@ -5,30 +5,30 @@ import { HiMail } from "react-icons/hi";
 
 function Socials() {
     return (
-      <ul class="flex justify-between w-[90%] text-[#2e3a59] lg:w-[65%]">
+      <ul class="flex justify-between w-full text-[#E0E0E0] lg:w-full">
         <a href="" class="flex items-center space-x-1.5">
           <span>
             <FaGithub />
           </span>
-          <li>GITHUB</li>
+          <li class='max-md:hidden'>GITHUB</li>
         </a>
         <a href="" class="flex items-center space-x-1.5">
           <span>
             <HiMail size="1.25em" />
           </span>
-          <li>EMAIL</li>
+          <li class='max-md:hidden'>EMAIL</li>
         </a>
         <a href="" class="flex items-center space-x-1.5">
           <span>
             <FaLinkedinIn />
           </span>
-          <li>LINKEDIN</li>
+          <li class='max-md:hidden'>LINKEDIN</li>
         </a>
         <a href="" class="flex items-center space-x-1.5">
           <span>
             <FaRegFilePdf />
           </span>
-          <li>RESUME</li>
+          <li class='max-md:hidden'>RESUME</li>
         </a>
       </ul>
     );
