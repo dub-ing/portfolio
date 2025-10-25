@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    image: "project-3.png",
+    image: "project-1.png",
     tags: ["FrontEnd"],
     title: "Real Estate",
     description:
@@ -11,7 +11,7 @@ export const data = [
   },
   {
     id: 2,
-    image: "project-3.png",
+    image: "project-2.png",
     tags: ["FrontEnd", "BackEnd"],
     title: "Alearners",
     description:
