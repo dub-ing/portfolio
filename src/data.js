@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    image: "project-1.png",
+    image: "project-2.png",
     tags: ["FrontEnd"],
     title: "Real Estate",
     description:
@@ -11,8 +11,8 @@ export const data = [
   },
   {
     id: 2,
-    image: "project-2.png",
-    tags: ["FrontEnd", "BackEnd"],
+    image: "project-1.png",
+    tags: ["FrontEnd"],
     title: "Alearners",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam amet tempore pariatur praesentium at ipsam magnam ipsum culpaaliquam fuga",
@@ -29,4 +29,19 @@ export const data = [
     tech: ["React", "Tailwind"],
     url: "https://web.app",
   },
+];
+
+export const skills = [
+  "REACT",
+  "REACT QUERY",
+  "FIGMA",
+  "SUPABASE",
+  "TAILWIND",
+  "STYLED COMPONENTS",
+  "GIT",
+  "GITHUB",
+  'JAVASCRIPT',
+  "WORDPRESS",
+  "HTML",
+  "CSS",
 ];

@@ -1,5 +1,6 @@
 import { HiArrowUpRight } from "react-icons/hi2";
 import Image from "./Image";
+import { skills } from "../data";
 
 function Skills() {
   return (
@@ -14,12 +15,16 @@ function Skills() {
       </div>
       <div class="lg:m-auto lg:w-[80%]">
         <p class="text-[#2e3a59] sm:text-lg lg:text-2xl">
-          Skilled in HTML/CSS, Bootstrap, Tailwind, JavaScript, ReactJs, Redux,
-          React Query Wordpress, GIT & GITHUB, Figma. I have experience in
-          building and maintaining responsive websites. I love problem-solving,
-          working within a team, and bouncing ideas off each other to find a
-          solution.
+          I am experienced in building and maintaining responsive websites, love
+          problem-solving, working within a team to turn ideas to product.
         </p>
+        <div class="flex flex-wrap gap-1.5 my-2">
+          {skills.map((skill) => (
+            <span class="text-[#2E3A59] rounded-lg text-sm font-normal border border-[#2E3A59] px-2.5 py-1">
+              {skill}
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   );
